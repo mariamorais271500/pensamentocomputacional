@@ -45,16 +45,53 @@ nav a {
     text-decoration: none;
 }
 
-#utensilios
-width: 220px;
-height: 220px;
-float: :last;
-margin: auto 15px 15px auto;
-border: 15px solidcolor #473e3b;
-
-#utensilios.hover{
-    
+#.utensilios{
+    width: 220px;
+    height: 220px;
+    float: :last;
+    margin: auto 15px 15px auto;
+    border: 15px solidcolor #473e3b; 
 }
+
+.MAPA{
+    width: 90PX;
+    margin: 0 auto;
+}   
+
+.beneficios{
+    padding: 3em 0;
+}
+.conteudo.beneficios{
+    width: inline block;
+    vertical-align: top;
+}
+.lista.beneficios{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens::before{
+    font-weight: bold;
+    content: "\2730";
+}
+#imagem .beneficios{
+    opacity: 75%;
+width: 54,2%;
+height: auto;
+}
+
+#imagem .beneficios:houver{
+    transition: 0,5s;;
+    opacity: 100%;
+    box-shadow: 10px 12px 5px #473e3b;
+}
+.videos{
+    width: 560px;
+margin: 3rem auto;
+}
+
+
 
 /*fim do header*/   
 
